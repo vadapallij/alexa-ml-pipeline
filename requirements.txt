@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+pydantic
+transformers
+torch
+datasets
+scikit-learn
+mlflow
+boto3
+sagemaker
+azure-identity
+azure-ai-ml
+azure-storage-file-datalake
+evidently
+python-dotenv
