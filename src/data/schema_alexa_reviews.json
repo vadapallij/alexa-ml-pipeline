@@ -1,0 +1,24 @@
+{
+  "table": "alexa_reviews",
+  "version": 1,
+  "required_columns": {
+    "text": {
+      "aliases": ["verified_reviews", "review_text", "text", "content", "feedback", "reviews", "summary"],
+      "type": "string",
+      "nullable": false
+    }
+  },
+  "optional_columns": {
+    "rating": { "type": "float", "nullable": true },
+    "variation": { "type": "string", "nullable": true },
+    "verified": { "type": "boolean", "nullable": true },
+    "date": { "type": "timestamp", "nullable": true },
+    "product_category": { "type": "string", "nullable": true }
+  },
+  "contracts": {
+    "encoding": "utf-8",
+    "delimiter": ",",
+    "deduplication": "row-wise",
+    "empty_rows": "drop"
+  }
+}

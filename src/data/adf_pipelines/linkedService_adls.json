@@ -1,0 +1,10 @@
+{
+  "name": "ls_adls",
+  "properties": {
+    "type": "AzureBlobFS",
+    "typeProperties": {
+      "url": "https://<AZ_STORAGE_ACCOUNT>.dfs.core.windows.net",
+      "sasToken": { "type": "SecureString", "value": "<SAS_TOKEN>" }
+    }
+  }
+}
